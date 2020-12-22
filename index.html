@@ -1,0 +1,22 @@
+<head>
+    <title>Virtual Keyboard w/ HTML, CSS & JS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/keyboard.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+
+<body>
+    <h1>Virtual Keyboard</h1>
+
+    <textarea class="use-keyboard-input" placeholder="Enter Your Text here " style="width: 300px;"
+    onfocus="toggleVirtualKeyBoard(true)" id="txtArea"></textarea>
+
+    <div class ="keyboard keyboard--hidden keyboard__keys" id="keyboardContainer">
+
+    </div>
+     <script src="js/keyboard.js"></script>
+     <script src="js/renderKeys.js"></script>
+
+</body>
